@@ -1,45 +1,63 @@
-"""Kirish nuqtasi — `python main.py`"""
+""" `python main.py`"""
 
 import logging
 import os
+import asyncio
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 from dotenv import load_dotenv
 from telegram import Update
+from telegram.ext import Application
 
 from bot import create_application
 from config import load_settings
 
-# Render uchun "yolg'onchi" port ochish funksiyasi
+# 1. Render учун "сохта" сервер (Health Check)
 class HealthCheckHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.end_headers()
         self.wfile.write(b"Bot is active")
+    
+    def do_HEAD(self): # Render bazan Head sorov yuboradi
+        self.send_response(200)
+        self.end_headers()
 
 def run_health_check_server():
-    # Render avtomatik beradigan PORT ni oladi, bo'lmasa 8080
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 10000))
     httpd = HTTPServer(('0.0.0.0', port), HealthCheckHandler)
-    logging.info(f"Health check serveri {port}-portda ishga tushdi.")
+    logging.info(f"Health check serveri {port}-portda ишга тушди.")
     httpd.serve_forever()
 
-def main() -> None:
+# 2. Asosiy sinxron funksdiya
+async def main() -> None:
     logging.basicConfig(
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
         level=logging.INFO,
     )
     load_dotenv()
     
-    # Bot ishga tushishidan oldin portni alohida oqimda yoqamiz
+    # alohida ishga tushirish
     threading.Thread(target=run_health_check_server, daemon=True).start()
     
     settings = load_settings()
     application = create_application(settings)
     
-    logging.info("Bot polling rejimi ishga tushmoqda...")
-    application.run_polling(allowed_updates=Update.ALL_TYPES)
+    logging.info("Bot ишга тушмокда...")
+    
+    # run polling
+    async with application:
+        await application.initialize()
+        await application.start()
+        await application.updater.start_polling(allowed_updates=Update.ALL_TYPES)
+        logging.info("Polling бошланди.")
+        # bot kutish
+        while True:
+            await asyncio.sleep(3600)
 
 if __name__ == "__main__":
-    main()
+    try:
+        asyncio.run(main())
+    except (KeyboardInterrupt, SystemExit):
+        logging.info("Bot тухтатилди.")
