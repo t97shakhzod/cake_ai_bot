@@ -1,0 +1,75 @@
+{
+  "shop_name": "Tortlar Cakes",
+  "group_reassurance_footer": "💬 Kanal egasi ham xabaringizni ko‘radi va shaxsan o'zi javob beradi — biroz kuting.",
+  "delivery": {
+    "available": true,
+    "summary": "Yetkazib berish — hozircha faqat Chiroqchi, Kamuna, Sohil mahalla,Mukob, Uvada va Chorshanbiga.",
+    "detail": "Aniq narx va vaqt buyurtma hajmi hamda masofaga bog‘liq. Zakazni oldin guruh egasi bilan tasdiqlang. Guruh egasidan javob olish uchun biroz kuting iltimos",
+    "min_order_note": "Ba’zi aksiyalar va minimal summa haqida kanalda e’lon qilinadi."
+  },
+  "brand_voice": {
+    "openers": [
+      "Bugun ham buyurtmalar jonli — sifat va mazani birinchi o‘ringa qo‘yamiz 🔥",
+      "Yangi kun, yangi shirin ta’m — bizda hamma narsa pishiruvdan bezatishgacha e’tibor bilan.",
+      "Mijozlarimiz ishonchi biz uchun qimmatli💫"
+    ],
+    "closings": [
+      "Savol bo‘lsa — yozing, qisqa va aniq javob beramiz.",
+      "Lentamizni kuzatib boring: eng yaxshi takliflar aynan shu yerda.",
+      "Buyurtmangiz biz uchun mas'uliyat — rahmat ishonchingiz uchun!"
+    ],
+    "hype_lines": [
+      "Savdo va sifat bugun ham yuqori — shirinliklar tez tugaydi, kechikmang.",
+      "Har bir tort ustamiz qo‘lida professional darajada tayyorlanadi.",
+      "Bizda «mazali» — bu oddiy so‘z emas, bu qoidamiz."
+    ],
+    "expert_lines": [
+      "Ingredientlar sifatli va saqlash sharoitlari nazorat ostida.",
+      "Klassik retseptlar + zamonaviy bezak — muvozanatni muhim deb bilamiz."
+    ]
+  },
+  "cakes": [
+    {
+      "id": "klassik_1kg",
+      "name": "Klassik tort (1 kg atrofida)",
+      "price_uzs": 50000,
+      "short": "Kundalik buyurtmalar uchun eng ommabop variantlardan.",
+      "keywords": ["klassik", "oddiy", "kichik", "1 kg", "50", "ming"]
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "price_uzs": 180000,
+      "short": "Qatlamlı, an’anaviy retsept bo‘yicha.",
+      "keywords": ["napoleon", "наполеон"]
+    },
+    {
+      "id": "medovik",
+      "name": "Medovik",
+      "price_uzs": 160000,
+      "short": "Asal va krem — yumshoq va to‘yimli.",
+      "keywords": ["medovik", "medalik", "медовик", "asal"]
+    },
+    {
+      "id": "red_velvet",
+      "name": "Red Velvet",
+      "price_uzs": 220000,
+      "short": "Chiroyli ko‘rinish, yumshoq tekstura.",
+      "keywords": ["red velvet", "velvet", "ред"]
+    },
+    {
+      "id": "bolalar",
+      "name": "Bolalar tematik tort",
+      "price_uzs": 250000,
+      "short": "Dizayn va figuralar buyurtma bo‘yicha.",
+      "keywords": ["bola", "bolalar", "tugilgan kun", "cartoon"]
+    }
+  ],
+  "daily_tips": [
+    "Bugun ham endigina pishirilgan tortlar — narxlarni so‘rash uchun izohlarda yozing, javob beramiz.",
+    "Yetkazib berish zonasi va shartlari kanal postlarida — savol bo‘lsa, yordam beramiz.",
+    "To‘y va tadbir uchun katta hajmli buyurtmalar — oldindan bron qilish tavsiya etiladi.",
+    "Har hafta yangi bezak g‘oyalari — lentani kuzatib boring, o‘tkazib yubormang.",
+    "Sifat va mijoz mamnuniyati — bizning ustuvor maqsadimiz; buyurtmalar soni o‘sishi mijozlar ishonchidan."
+  ]
+}

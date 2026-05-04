@@ -1,0 +1,7 @@
+{
+  "auto_collect": true,
+  "max_collected": 250,
+  "manual_message_ids": [],
+  "collected_message_ids": [],
+  "_eslatma": "Yangi postlar bot ishlayotganda kanalga tushsa, collected_message_ids ga avtomatik yoziladi. Eski postlar uchun egaga /qosh buyrug‘i."
+}

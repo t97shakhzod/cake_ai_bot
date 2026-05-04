@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "title": "Nima uchun biskvit «cho‘kib» ketadi?",
+      "body": "Eng ko‘p sabablar: xamirni ortiqcha aralashtirish (gluten mustahkam bo‘lib ketadi), pech ochilishi bilan eshikni tez-tez ochish, yoki pishirish harorati noto‘g‘ri. Oddiy qoida: ingredientlarni bir xil xaroratda tutish, aralashtirishni muvozanatli tugatish va tayyorlikni tishpick yoki yumshoq bosish bilan tekshirish.",
+      "footer": "O‘zingiz sinashdan oldin retseptdagi vaqtlarni 2–3 daqiqa oralig‘ida sinab ko‘ring — pech har xil issiq beradi."
+    },
+    {
+      "title": "Krem qanday qilib «suvlash» qilmasin?",
+      "body": "Suvlash odatda krem va suti mahsulotlari harorat farqidan yoki shakar to‘liq erimaganidan bo‘ladi. Krem pishloq/sariyog‘ va qaymoqni bir xil xilli sovitib aralashtirish, shakarni birinchi navbatda yaxshi eritish yoki almashtirish muhim.",
+      "footer": "Issiq tortga sovuq krem qo‘yish ham ajralishni kuchaytiradi — tortni biroz sovitish yaxshi amaliyot."
+    },
+    {
+      "title": "Tortni uzoq saqlash: 2–3 kunlik qoida",
+      "body": "Kremli tortlar odatda muzlatgichda +2…+6 °C da saqlanadi. Havo o‘tkazmaydigan qopqoq yoki quti ichida saqlang — havo tortni tez quruq qiladi. Muzlatish (to‘liq muzlatish) ba’zi tortlar uchun mumkin, lekin bezak va krem turiga bog‘liq.",
+      "footer": "Mijozga har doim «iste’mol muddati» va saqlashni yozib qoldiring — ishonch oshadi."
+    },
+    {
+      "title": "Muz va shokolad glazur: silliq yuzaning sirlari",
+      "body": "Shokoladni sekin eritish va to‘g‘ri harorat oralig‘ida tutish silliq pardani beradi. Tort yuzasi to‘liq tegishmaydigan darajada sovuq bo‘lishi kerak (lekin kondensat ham bo‘lmasin). Bir marta quyib, tez-tez tegirmaslik yaxshi.",
+      "footer": "Birinchi marta chiqqan naqsh — tajriba bilan yo‘qoladi; har bir ustoz shunday boshlagan."
+    },
+    {
+      "title": "Bezakda rang palitrasi: kam, lekin boy",
+      "body": "Juda ko‘p rang bir vaqtda ko‘zni charchatadi. 2–3 asosiy rang + oq/yaltiroq aksent odatda premium ko‘rinish beradi. Tabiiy oziq boyoq va sifatli gel boyoqlar farqini mijoz his qiladi.",
+      "footer": "Instagramda trendni kuzating, lekin o‘z brend ranglaringizni saqlang — tanilish shu bilan keladi."
+    },
+    {
+      "title": "To‘y torti: nima uchun oldindan bron muhim?",
+      "body": "Katta hajm — bu vaqt, logistika va bezak bosqichlari. 1–2 hafta oldin bron qilish sifat va stressni yaxshilaydi. Mijozga aniq muddat va tasdiqlangan dizayn eskizi kerak.",
+      "footer": "Kanalda «bron ochildi / yopildi» deb e’lon qilish — real daromad boshqaruvi."
+    },
+    {
+      "title": "«Halol» va allergenlar haqida qisqa eslatma",
+      "body": "Yong‘oq, sut, tuxum kabi allergenlarni yozib qo‘yish professional imidj. Mijoz so‘rasa, tarkibni ochiq ayting — qisqa javob ishonchni oshiradi.",
+      "footer": "Mahalliy qoidalarni ham kuzating — bu biznesni himoya qiladi."
+    },
+    {
+      "title": "Foto va yorug‘lik: tort sotadigan yagona «do‘kon vitrinasi»",
+      "body": "Tabiiy yorug‘lik + neytral fon ko‘pincha filtrdan yaxshiroq. 2–3 ta burchakdan surat oling: yuqori, yon, kesim (agar mumkin bo‘lsa).",
+      "footer": "Har bir yangi tort — kamida bitta professional surat; kanal lentasi shu bilan «jonli» bo‘ladi."
+    },
+    {
+      "title": "Narxni qanday asoslash mumkin?",
+      "body": "Ingredient + vaqt + bezak murakkabligi + yetkazib berish. Oddiy jadval tuting: 1 kg uchun asosiy xarajat, keyin ustama. Mijozga «nima uchun shu narx» deganda qisqa va halol javob bering.",
+      "footer": "Arzonlash emas, qiymat taklifi — uzoq muddatda foydaliroq."
+    },
+    {
+      "title": "Mijoz bilan muloqot: 3 ta yaxshi savol",
+      "body": "1) Necha kishi uchun? 2) Qachon kerak? 3) Bezak va allergiya cheklovlari bormi? Bu savollar keyingi adashtirishlarni kamaytiradi.",
+      "footer": "Guruhda qisqa javob + egaga xabar — siz allaqachon professional ko‘rinasiz."
+    }
+  ]
+}
